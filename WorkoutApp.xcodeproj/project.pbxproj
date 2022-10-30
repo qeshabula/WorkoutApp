@@ -26,6 +26,7 @@
 		AF4211E9290D26EA002AE46B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E8290D26EA002AE46B /* BaseView.swift */; };
 		AF4211EC290E9B0D002AE46B /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211EB290E9B0D002AE46B /* WeekView.swift */; };
 		AF4211EE290EA060002AE46B /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211ED290EA060002AE46B /* WeekdayView.swift */; };
+		AF704E41290ED6B200CB546B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AF704E40290ED6B200CB546B /* .gitignore */; };
 		AF9E0442290EAB2600C1C272 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E0441290EAB2600C1C272 /* Date + ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		AF4211E8290D26EA002AE46B /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		AF4211EB290E9B0D002AE46B /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		AF4211ED290EA060002AE46B /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		AF704E40290ED6B200CB546B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AF9E0441290EAB2600C1C272 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 		AF3BCFEF290C071000426807 = {
 			isa = PBXGroup;
 			children = (
+				AF704E40290ED6B200CB546B /* .gitignore */,
 				AF3BCFFA290C071000426807 /* WorkoutApp */,
 				AF3BCFF9290C071000426807 /* Products */,
 			);
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3BD008290C071100426807 /* LaunchScreen.storyboard in Resources */,
+				AF704E41290ED6B200CB546B /* .gitignore in Resources */,
 				AF3BD005290C071100426807 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
