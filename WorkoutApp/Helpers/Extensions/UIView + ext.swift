@@ -5,6 +5,7 @@
 //  Created by Bula on 10/29/22.
 //
 
+
 import UIKit
 
 extension UIView {
@@ -42,7 +43,7 @@ extension UIView {
         UIView.animate(withDuration: 0.15) { self.alpha = 1 }
     }
 
-    func addView(_ view: UIView) {
+    func setupView(_ view: UIView) {
         addSubview(view)
         view.translatesAutoresizingMaskIntoConstraints = false
     }
