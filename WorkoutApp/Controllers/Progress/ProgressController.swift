@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProgressController: BaseController {
+class ProgressController: WABaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,3 +37,4 @@ extension ProgressController {
         addNavBarButton(at: .right, with: R.Strings.Progress.navBarRight)
     }
 }
+

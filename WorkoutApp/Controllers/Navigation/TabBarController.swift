@@ -20,10 +20,17 @@ final class TabBarController: UITabBarController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
 
         configureAppearance()
+        switchTo(tab: .session)
     }
 
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
+        
+        configureAppearance()
+    }
+
+    func switchTo(tab: Tabs) {
+        selectedIndex = tab.rawValue
     }
 
     private func configureAppearance() {
@@ -45,7 +52,7 @@ final class TabBarController: UITabBarController {
         setViewControllers(controllers, animated: false)
     }
 
-    private func getController(for tab: Tabs) -> BaseController {
+    private func getController(for tab: Tabs) -> WABaseController {
         switch tab {
         case .overview: return OverviewController()
         case .session: return SessionController()
@@ -54,5 +61,3 @@ final class TabBarController: UITabBarController {
         }
     }
 }
-
-

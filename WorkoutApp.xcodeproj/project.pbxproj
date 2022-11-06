@@ -16,17 +16,20 @@
 		AF3BD015290C0B3D00426807 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3BD014290C0B3D00426807 /* UIColor + ext.swift */; };
 		AF3BD018290C0C3800426807 /* Recouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3BD017290C0C3800426807 /* Recouces.swift */; };
 		AF4211D1290CF884002AE46B /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211D0290CF884002AE46B /* NavBarController.swift */; };
-		AF4211D4290CFD74002AE46B /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211D3290CFD74002AE46B /* BaseController.swift */; };
+		AF4211D4290CFD74002AE46B /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211D3290CFD74002AE46B /* WABaseController.swift */; };
 		AF4211D6290D018D002AE46B /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211D5290D018D002AE46B /* UIView + ext.swift */; };
 		AF4211DE290D0435002AE46B /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211DD290D0435002AE46B /* SessionController.swift */; };
 		AF4211E0290D0441002AE46B /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211DF290D0441002AE46B /* ProgressController.swift */; };
 		AF4211E2290D044E002AE46B /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E1290D044E002AE46B /* SettingsController.swift */; };
-		AF4211E5290D1416002AE46B /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E4290D1416002AE46B /* SecondaryButton.swift */; };
+		AF4211E5290D1416002AE46B /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E4290D1416002AE46B /* WAButton.swift */; };
 		AF4211E7290D2682002AE46B /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E6290D2682002AE46B /* OverviewNavBar.swift */; };
 		AF4211E9290D26EA002AE46B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E8290D26EA002AE46B /* BaseView.swift */; };
 		AF4211EC290E9B0D002AE46B /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211EB290E9B0D002AE46B /* WeekView.swift */; };
 		AF4211EE290EA060002AE46B /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211ED290EA060002AE46B /* WeekdayView.swift */; };
 		AF704E41290ED6B200CB546B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AF704E40290ED6B200CB546B /* .gitignore */; };
+		AF704E452910309E00CB546B /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E442910309E00CB546B /* WABaseInfoView.swift */; };
+		AF704E4929169AC000CB546B /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E4829169AC000CB546B /* TimerView.swift */; };
+		AF704E4C29169BEE00CB546B /* ProgressView   .swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E4B29169BEE00CB546B /* ProgressView   .swift */; };
 		AF9E0442290EAB2600C1C272 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E0441290EAB2600C1C272 /* Date + ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,17 +45,20 @@
 		AF3BD014290C0B3D00426807 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		AF3BD017290C0C3800426807 /* Recouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recouces.swift; sourceTree = "<group>"; };
 		AF4211D0290CF884002AE46B /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
-		AF4211D3290CFD74002AE46B /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		AF4211D3290CFD74002AE46B /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
 		AF4211D5290D018D002AE46B /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
 		AF4211DD290D0435002AE46B /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		AF4211DF290D0441002AE46B /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		AF4211E1290D044E002AE46B /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
-		AF4211E4290D1416002AE46B /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		AF4211E4290D1416002AE46B /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		AF4211E6290D2682002AE46B /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		AF4211E8290D26EA002AE46B /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		AF4211EB290E9B0D002AE46B /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		AF4211ED290EA060002AE46B /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		AF704E40290ED6B200CB546B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AF704E442910309E00CB546B /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
+		AF704E4829169AC000CB546B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		AF704E4B29169BEE00CB546B /* ProgressView   .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressView   .swift"; sourceTree = "<group>"; };
 		AF9E0441290EAB2600C1C272 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,8 +142,7 @@
 		AF4211D2290CFD4F002AE46B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AF3BD011290C09F700426807 /* TabBarController.swift */,
-				AF4211D0290CF884002AE46B /* NavBarController.swift */,
+				AF704E502918290600CB546B /* Navigation */,
 				AF4211DC290D03FD002AE46B /* Settings */,
 				AF4211DB290D03F0002AE46B /* Progress */,
 				AF4211DA290D03E2002AE46B /* Session */,
@@ -150,8 +155,8 @@
 		AF4211D8290D03A9002AE46B /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				AF4211D3290CFD74002AE46B /* BaseController.swift */,
-				AF4211E8290D26EA002AE46B /* BaseView.swift */,
+				AF704E46291173E400CB546B /* Views */,
+				AF4211D3290CFD74002AE46B /* WABaseController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -159,7 +164,7 @@
 		AF4211D9290D03CC002AE46B /* Overview */ = {
 			isa = PBXGroup;
 			children = (
-				AF4211E3290D13C9002AE46B /* Views */,
+				AF4211E3290D13C9002AE46B /* Views  */,
 				AF3BCFFF290C071000426807 /* OverviewController.swift */,
 			);
 			path = Overview;
@@ -168,6 +173,7 @@
 		AF4211DA290D03E2002AE46B /* Session */ = {
 			isa = PBXGroup;
 			children = (
+				AF704E4729169AA000CB546B /* Views */,
 				AF4211DD290D0435002AE46B /* SessionController.swift */,
 			);
 			path = Session;
@@ -189,14 +195,12 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		AF4211E3290D13C9002AE46B /* Views */ = {
+		AF4211E3290D13C9002AE46B /* Views  */ = {
 			isa = PBXGroup;
 			children = (
-				AF4211EA290E9AA5002AE46B /* WeekView */,
-				AF4211E4290D1416002AE46B /* SecondaryButton.swift */,
-				AF4211E6290D2682002AE46B /* OverviewNavBar.swift */,
+				AF704E4D2916AA4500CB546B /* NavBar */,
 			);
-			path = Views;
+			path = "Views ";
 			sourceTree = "<group>";
 		};
 		AF4211EA290E9AA5002AE46B /* WeekView */ = {
@@ -206,6 +210,51 @@
 				AF4211ED290EA060002AE46B /* WeekdayView.swift */,
 			);
 			path = WeekView;
+			sourceTree = "<group>";
+		};
+		AF704E46291173E400CB546B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF4211E8290D26EA002AE46B /* BaseView.swift */,
+				AF704E442910309E00CB546B /* WABaseInfoView.swift */,
+				AF4211E4290D1416002AE46B /* WAButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF704E4729169AA000CB546B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF704E4A29169BC400CB546B /* Timer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF704E4A29169BC400CB546B /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				AF704E4829169AC000CB546B /* TimerView.swift */,
+				AF704E4B29169BEE00CB546B /* ProgressView   .swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		AF704E4D2916AA4500CB546B /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				AF4211E6290D2682002AE46B /* OverviewNavBar.swift */,
+				AF4211EA290E9AA5002AE46B /* WeekView */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		AF704E502918290600CB546B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AF3BD011290C09F700426807 /* TabBarController.swift */,
+				AF4211D0290CF884002AE46B /* NavBarController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,17 +334,20 @@
 				AF3BD000290C071000426807 /* OverviewController.swift in Sources */,
 				AF4211E7290D2682002AE46B /* OverviewNavBar.swift in Sources */,
 				AF4211D6290D018D002AE46B /* UIView + ext.swift in Sources */,
+				AF704E4C29169BEE00CB546B /* ProgressView   .swift in Sources */,
 				AF3BD012290C09F700426807 /* TabBarController.swift in Sources */,
 				AF3BCFFC290C071000426807 /* AppDelegate.swift in Sources */,
 				AF4211DE290D0435002AE46B /* SessionController.swift in Sources */,
-				AF4211E5290D1416002AE46B /* SecondaryButton.swift in Sources */,
+				AF704E452910309E00CB546B /* WABaseInfoView.swift in Sources */,
+				AF704E4929169AC000CB546B /* TimerView.swift in Sources */,
+				AF4211E5290D1416002AE46B /* WAButton.swift in Sources */,
 				AF4211E0290D0441002AE46B /* ProgressController.swift in Sources */,
 				AF4211D1290CF884002AE46B /* NavBarController.swift in Sources */,
 				AF3BD015290C0B3D00426807 /* UIColor + ext.swift in Sources */,
 				AF3BD018290C0C3800426807 /* Recouces.swift in Sources */,
 				AF4211E9290D26EA002AE46B /* BaseView.swift in Sources */,
 				AF4211EE290EA060002AE46B /* WeekdayView.swift in Sources */,
-				AF4211D4290CFD74002AE46B /* BaseController.swift in Sources */,
+				AF4211D4290CFD74002AE46B /* WABaseController.swift in Sources */,
 				AF3BCFFE290C071000426807 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
