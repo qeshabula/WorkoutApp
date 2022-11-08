@@ -46,6 +46,11 @@ enum R {
             static let navBarStart = "Start"
             static let navBarPause = "Pause"
             static let navBarFinish = "Finish"
+
+            static let elapsedTime = "Elapsed Time"
+            static let remainingTime = "Remaining Time"
+            static let completed = "Completed"
+            static let remaining = "Remaining"
         }
 
         enum Progress {
@@ -80,4 +85,3 @@ enum R {
         }
     }
 }
-

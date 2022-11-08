@@ -23,13 +23,14 @@
 		AF4211E2290D044E002AE46B /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E1290D044E002AE46B /* SettingsController.swift */; };
 		AF4211E5290D1416002AE46B /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E4290D1416002AE46B /* WAButton.swift */; };
 		AF4211E7290D2682002AE46B /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E6290D2682002AE46B /* OverviewNavBar.swift */; };
-		AF4211E9290D26EA002AE46B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E8290D26EA002AE46B /* BaseView.swift */; };
+		AF4211E9290D26EA002AE46B /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211E8290D26EA002AE46B /* WABaseView.swift */; };
 		AF4211EC290E9B0D002AE46B /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211EB290E9B0D002AE46B /* WeekView.swift */; };
 		AF4211EE290EA060002AE46B /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4211ED290EA060002AE46B /* WeekdayView.swift */; };
 		AF704E41290ED6B200CB546B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AF704E40290ED6B200CB546B /* .gitignore */; };
 		AF704E452910309E00CB546B /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E442910309E00CB546B /* WABaseInfoView.swift */; };
 		AF704E4929169AC000CB546B /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E4829169AC000CB546B /* TimerView.swift */; };
 		AF704E4C29169BEE00CB546B /* ProgressView   .swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E4B29169BEE00CB546B /* ProgressView   .swift */; };
+		AF704E52291A2DE800CB546B /* PecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E51291A2DE800CB546B /* PecentView.swift */; };
 		AF9E0442290EAB2600C1C272 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E0441290EAB2600C1C272 /* Date + ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,13 +53,14 @@
 		AF4211E1290D044E002AE46B /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		AF4211E4290D1416002AE46B /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		AF4211E6290D2682002AE46B /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
-		AF4211E8290D26EA002AE46B /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		AF4211E8290D26EA002AE46B /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
 		AF4211EB290E9B0D002AE46B /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		AF4211ED290EA060002AE46B /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		AF704E40290ED6B200CB546B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AF704E442910309E00CB546B /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
 		AF704E4829169AC000CB546B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		AF704E4B29169BEE00CB546B /* ProgressView   .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressView   .swift"; sourceTree = "<group>"; };
+		AF704E51291A2DE800CB546B /* PecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecentView.swift; sourceTree = "<group>"; };
 		AF9E0441290EAB2600C1C272 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,7 +217,7 @@
 		AF704E46291173E400CB546B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AF4211E8290D26EA002AE46B /* BaseView.swift */,
+				AF4211E8290D26EA002AE46B /* WABaseView.swift */,
 				AF704E442910309E00CB546B /* WABaseInfoView.swift */,
 				AF4211E4290D1416002AE46B /* WAButton.swift */,
 			);
@@ -235,6 +237,7 @@
 			children = (
 				AF704E4829169AC000CB546B /* TimerView.swift */,
 				AF704E4B29169BEE00CB546B /* ProgressView   .swift */,
+				AF704E51291A2DE800CB546B /* PecentView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -341,11 +344,12 @@
 				AF704E452910309E00CB546B /* WABaseInfoView.swift in Sources */,
 				AF704E4929169AC000CB546B /* TimerView.swift in Sources */,
 				AF4211E5290D1416002AE46B /* WAButton.swift in Sources */,
+				AF704E52291A2DE800CB546B /* PecentView.swift in Sources */,
 				AF4211E0290D0441002AE46B /* ProgressController.swift in Sources */,
 				AF4211D1290CF884002AE46B /* NavBarController.swift in Sources */,
 				AF3BD015290C0B3D00426807 /* UIColor + ext.swift in Sources */,
 				AF3BD018290C0C3800426807 /* Recouces.swift in Sources */,
-				AF4211E9290D26EA002AE46B /* BaseView.swift in Sources */,
+				AF4211E9290D26EA002AE46B /* WABaseView.swift in Sources */,
 				AF4211EE290EA060002AE46B /* WeekdayView.swift in Sources */,
 				AF4211D4290CFD74002AE46B /* WABaseController.swift in Sources */,
 				AF3BCFFE290C071000426807 /* SceneDelegate.swift in Sources */,
