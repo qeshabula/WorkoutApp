@@ -38,6 +38,10 @@
 		AF704E52291A2DE800CB546B /* PecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E51291A2DE800CB546B /* PecentView.swift */; };
 		AF9E0442290EAB2600C1C272 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E0441290EAB2600C1C272 /* Date + ext.swift */; };
 		AFE0A0FB294DBF8E00B71E12 /* DailyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A0FA294DBF8E00B71E12 /* DailyPerformanceView.swift */; };
+		AFE0A0FE2956FB8100B71E12 /* MonthlyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A0FD2956FB8100B71E12 /* MonthlyPerformanceView.swift */; };
+		AFE0A10329571E9B00B71E12 /* WAChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A10229571E9B00B71E12 /* WAChartsView.swift */; };
+		AFE0A1062957232E00B71E12 /* XAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A1052957232E00B71E12 /* XAxisView.swift */; };
+		AFE0A10829572E8700B71E12 /* YAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A10729572E8700B71E12 /* YAxisView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +78,10 @@
 		AF704E51291A2DE800CB546B /* PecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecentView.swift; sourceTree = "<group>"; };
 		AF9E0441290EAB2600C1C272 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 		AFE0A0FA294DBF8E00B71E12 /* DailyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformanceView.swift; sourceTree = "<group>"; };
+		AFE0A0FD2956FB8100B71E12 /* MonthlyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerformanceView.swift; sourceTree = "<group>"; };
+		AFE0A10229571E9B00B71E12 /* WAChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartsView.swift; sourceTree = "<group>"; };
+		AFE0A1052957232E00B71E12 /* XAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAxisView.swift; sourceTree = "<group>"; };
+		AFE0A10729572E8700B71E12 /* YAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAxisView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +209,7 @@
 				AF704E502918290600CB546B /* Navigation */,
 				AF4211DC290D03FD002AE46B /* Settings */,
 				AF4211DB290D03F0002AE46B /* Progress */,
+				AF4211DF290D0441002AE46B /* ProgressController.swift */,
 				AF4211DA290D03E2002AE46B /* Session */,
 				AF4211D9290D03CC002AE46B /* Overview */,
 				AF4211D8290D03A9002AE46B /* Base */,
@@ -239,7 +248,6 @@
 			isa = PBXGroup;
 			children = (
 				AFE0A0F8294DBF2700B71E12 /* Views */,
-				AF4211DF290D0441002AE46B /* ProgressController.swift */,
 			);
 			path = Progress;
 			sourceTree = "<group>";
@@ -272,6 +280,7 @@
 		AF704E46291173E400CB546B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AFE0A10029571E6900B71E12 /* WAChartsView */,
 				AF05CECA291F624200A69B02 /* WABarsView */,
 				AF4211E8290D26EA002AE46B /* WABaseView.swift */,
 				AF704E442910309E00CB546B /* WABaseInfoView.swift */,
@@ -321,17 +330,44 @@
 		AFE0A0F8294DBF2700B71E12 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AFE0A0F9294DBF5E00B71E12 /* Performance */,
+				AFE0A104295720E400B71E12 /* DailyPerformanceView */,
+				AFE0A0FC2956FB3E00B71E12 /* MonthlyPerformanceView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AFE0A0F9294DBF5E00B71E12 /* Performance */ = {
+		AFE0A0FC2956FB3E00B71E12 /* MonthlyPerformanceView */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0A0FD2956FB8100B71E12 /* MonthlyPerformanceView.swift */,
+			);
+			path = MonthlyPerformanceView;
+			sourceTree = "<group>";
+		};
+		AFE0A10029571E6900B71E12 /* WAChartsView */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0A10129571E7900B71E12 /* Views */,
+				AFE0A10229571E9B00B71E12 /* WAChartsView.swift */,
+			);
+			path = WAChartsView;
+			sourceTree = "<group>";
+		};
+		AFE0A10129571E7900B71E12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0A1052957232E00B71E12 /* XAxisView.swift */,
+				AFE0A10729572E8700B71E12 /* YAxisView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFE0A104295720E400B71E12 /* DailyPerformanceView */ = {
 			isa = PBXGroup;
 			children = (
 				AFE0A0FA294DBF8E00B71E12 /* DailyPerformanceView.swift */,
 			);
-			path = Performance;
+			path = DailyPerformanceView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,17 +446,21 @@
 				AF4211E2290D044E002AE46B /* SettingsController.swift in Sources */,
 				AF3BD000290C071000426807 /* OverviewController.swift in Sources */,
 				AF4211E7290D2682002AE46B /* OverviewNavBar.swift in Sources */,
+				AFE0A0FE2956FB8100B71E12 /* MonthlyPerformanceView.swift in Sources */,
 				AF4211D6290D018D002AE46B /* UIView + ext.swift in Sources */,
 				AF704E4C29169BEE00CB546B /* ProgressView   .swift in Sources */,
 				AF05CED1291F629300A69B02 /* WABarView.swift in Sources */,
 				AF3BD012290C09F700426807 /* TabBarController.swift in Sources */,
 				AFE0A0FB294DBF8E00B71E12 /* DailyPerformanceView.swift in Sources */,
+				AFE0A10329571E9B00B71E12 /* WAChartsView.swift in Sources */,
 				AF3BCFFC290C071000426807 /* AppDelegate.swift in Sources */,
 				AF4211DE290D0435002AE46B /* SessionController.swift in Sources */,
 				AF704E452910309E00CB546B /* WABaseInfoView.swift in Sources */,
 				AF704E4929169AC000CB546B /* TimerView.swift in Sources */,
 				AF4211E5290D1416002AE46B /* WAButton.swift in Sources */,
 				AF05CEC9291E867B00A69B02 /* StepsView.swift in Sources */,
+				AFE0A10829572E8700B71E12 /* YAxisView.swift in Sources */,
+				AFE0A1062957232E00B71E12 /* XAxisView.swift in Sources */,
 				AF704E52291A2DE800CB546B /* PecentView.swift in Sources */,
 				AF4211E0290D0441002AE46B /* ProgressController.swift in Sources */,
 				AF38939B291BF893007F1CA7 /* StatsItemView.swift in Sources */,
