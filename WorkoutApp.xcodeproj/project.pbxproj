@@ -42,6 +42,7 @@
 		AFE0A10329571E9B00B71E12 /* WAChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A10229571E9B00B71E12 /* WAChartsView.swift */; };
 		AFE0A1062957232E00B71E12 /* XAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A1052957232E00B71E12 /* XAxisView.swift */; };
 		AFE0A10829572E8700B71E12 /* YAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A10729572E8700B71E12 /* YAxisView.swift */; };
+		AFE0A10A29586B9B00B71E12 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A10929586B9B00B71E12 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		AFE0A10229571E9B00B71E12 /* WAChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartsView.swift; sourceTree = "<group>"; };
 		AFE0A1052957232E00B71E12 /* XAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAxisView.swift; sourceTree = "<group>"; };
 		AFE0A10729572E8700B71E12 /* YAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAxisView.swift; sourceTree = "<group>"; };
+		AFE0A10929586B9B00B71E12 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +360,7 @@
 			children = (
 				AFE0A1052957232E00B71E12 /* XAxisView.swift */,
 				AFE0A10729572E8700B71E12 /* YAxisView.swift */,
+				AFE0A10929586B9B00B71E12 /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 				AF4211E9290D26EA002AE46B /* WABaseView.swift in Sources */,
 				AF4211EE290EA060002AE46B /* WeekdayView.swift in Sources */,
 				AF05CECE291F627700A69B02 /* WABarsView.swift in Sources */,
+				AFE0A10A29586B9B00B71E12 /* ChartView.swift in Sources */,
 				AF389398291BF819007F1CA7 /* StatsView.swift in Sources */,
 				AF4211D4290CFD74002AE46B /* WABaseController.swift in Sources */,
 				AF3BCFFE290C071000426807 /* SceneDelegate.swift in Sources */,
