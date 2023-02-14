@@ -36,6 +36,7 @@
 		AF704E4929169AC000CB546B /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E4829169AC000CB546B /* TimerView.swift */; };
 		AF704E4C29169BEE00CB546B /* ProgressView   .swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E4B29169BEE00CB546B /* ProgressView   .swift */; };
 		AF704E52291A2DE800CB546B /* PecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF704E51291A2DE800CB546B /* PecentView.swift */; };
+		AF787A252998F20A00E02A71 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF787A242998F20A00E02A71 /* SectionHeaderView.swift */; };
 		AF9E0442290EAB2600C1C272 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E0441290EAB2600C1C272 /* Date + ext.swift */; };
 		AFE0A0FB294DBF8E00B71E12 /* DailyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A0FA294DBF8E00B71E12 /* DailyPerformanceView.swift */; };
 		AFE0A0FE2956FB8100B71E12 /* MonthlyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A0FD2956FB8100B71E12 /* MonthlyPerformanceView.swift */; };
@@ -77,6 +78,7 @@
 		AF704E4829169AC000CB546B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		AF704E4B29169BEE00CB546B /* ProgressView   .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressView   .swift"; sourceTree = "<group>"; };
 		AF704E51291A2DE800CB546B /* PecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecentView.swift; sourceTree = "<group>"; };
+		AF787A242998F20A00E02A71 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		AF9E0441290EAB2600C1C272 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 		AFE0A0FA294DBF8E00B71E12 /* DailyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformanceView.swift; sourceTree = "<group>"; };
 		AFE0A0FD2956FB8100B71E12 /* MonthlyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerformanceView.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 		AF4211E3290D13C9002AE46B /* Views  */ = {
 			isa = PBXGroup;
 			children = (
+				AF787A222998F1DB00E02A71 /* CollectionView */,
 				AF704E4D2916AA4500CB546B /* NavBar */,
 			);
 			path = "Views ";
@@ -327,6 +330,22 @@
 				AF4211D0290CF884002AE46B /* NavBarController.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		AF787A222998F1DB00E02A71 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AF787A232998F1F500E02A71 /* Views */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		AF787A232998F1F500E02A71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF787A242998F20A00E02A71 /* SectionHeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		AFE0A0F8294DBF2700B71E12 /* Views */ = {
@@ -471,6 +490,7 @@
 				AF3BD015290C0B3D00426807 /* UIColor + ext.swift in Sources */,
 				AF3BD018290C0C3800426807 /* Recouces.swift in Sources */,
 				AF4211E9290D26EA002AE46B /* WABaseView.swift in Sources */,
+				AF787A252998F20A00E02A71 /* SectionHeaderView.swift in Sources */,
 				AF4211EE290EA060002AE46B /* WeekdayView.swift in Sources */,
 				AF05CECE291F627700A69B02 /* WABarsView.swift in Sources */,
 				AFE0A10A29586B9B00B71E12 /* ChartView.swift in Sources */,
