@@ -10,6 +10,7 @@
 		AF05CEC9291E867B00A69B02 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05CEC8291E867B00A69B02 /* StepsView.swift */; };
 		AF05CECE291F627700A69B02 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05CECD291F627700A69B02 /* WABarsView.swift */; };
 		AF05CED1291F629300A69B02 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05CED0291F629300A69B02 /* WABarView.swift */; };
+		AF3687A329AE6DA5001731AC /* TrainingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3687A229AE6DA5001731AC /* TrainingCellView.swift */; };
 		AF389398291BF819007F1CA7 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF389397291BF819007F1CA7 /* StatsView.swift */; };
 		AF38939B291BF893007F1CA7 /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38939A291BF893007F1CA7 /* StatsItemView.swift */; };
 		AF3BCFFC290C071000426807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3BCFFB290C071000426807 /* AppDelegate.swift */; };
@@ -50,6 +51,7 @@
 		AF05CEC8291E867B00A69B02 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		AF05CECD291F627700A69B02 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
 		AF05CED0291F629300A69B02 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
+		AF3687A229AE6DA5001731AC /* TrainingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCellView.swift; sourceTree = "<group>"; };
 		AF389397291BF819007F1CA7 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		AF38939A291BF893007F1CA7 /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
 		AF3BCFF8290C071000426807 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -344,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				AF787A242998F20A00E02A71 /* SectionHeaderView.swift */,
+				AF3687A229AE6DA5001731AC /* TrainingCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				AF3BD000290C071000426807 /* OverviewController.swift in Sources */,
 				AF4211E7290D2682002AE46B /* OverviewNavBar.swift in Sources */,
 				AFE0A0FE2956FB8100B71E12 /* MonthlyPerformanceView.swift in Sources */,
+				AF3687A329AE6DA5001731AC /* TrainingCellView.swift in Sources */,
 				AF4211D6290D018D002AE46B /* UIView + ext.swift in Sources */,
 				AF704E4C29169BEE00CB546B /* ProgressView   .swift in Sources */,
 				AF05CED1291F629300A69B02 /* WABarView.swift in Sources */,
